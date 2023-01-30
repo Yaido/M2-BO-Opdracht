@@ -235,3 +235,24 @@ body{
     padding-bottom: 20px;
     width: 100%;
 }
+
+.innercontainer > h2, p{
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outercontainer{
+    height: 100%;
+    width: 100vw;
+    font-family: sans-serif;
+    max-width: 95%;
+    padding: 20px;
+}
+
+.innercontainer{
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
