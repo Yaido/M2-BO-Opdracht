@@ -226,3 +226,12 @@ body{
 #radio4:checked ~ .navigation-auto .auto-btn1{
     background: black;
 }
+
+.geschiedenis > h2{
+    padding-top: 40px;
+}
+
+.text{
+    padding-bottom: 20px;
+    width: 100%;
+}
