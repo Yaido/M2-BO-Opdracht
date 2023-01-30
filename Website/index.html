@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <title>Site</title>
 </head>
 
 <body>
@@ -20,8 +21,8 @@
             <a href="index.html"><img class="home" src="img/logo.jpg" alt=""></a>
         </nav>
     </header>
-
     <figure>
+
         <section class="start">
             <h1 class="play">Speel de game!</h1>
             <button class="begin">Begin het spel hier</button>
@@ -56,7 +57,6 @@
                 <img src="img/image00004.jpeg" alt="">
             </div>
         </div>
-
         <section class="sliderr">
             <div class="slider">
                 <h2>Foto's</h2>
@@ -219,9 +219,7 @@
                 </div>
             </div>
         </div>
-
     </figure>
-
     <footer>
         <div class="main-content">
             <div class="left box">
@@ -270,7 +268,16 @@
             </div>
         </div>
     </footer>
-
+    <script type="text/javascript" defer>
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 4){
+                counter = 1;
+            }
+        }, 5000);
+    </script>
 </body>
 
 </html>
