@@ -22,10 +22,11 @@
         </nav>
     </header>
     <figure>
-
+        <h2>Speel onze Minigame!</h2>
         <section class="start">
-            <h1 class="play">Speel de game!</h1>
-            <button class="begin">Begin het spel hier</button>
+            <div class="game">
+                <canvas id="canvas" width="400" height="400"></canvas>
+            </div>
         </section>
 
         <div class="buitensteContainer">
@@ -268,6 +269,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/canvas.js" defer></script>
     <script type="text/javascript" defer>
         var counter = 1;
         setInterval(function(){
